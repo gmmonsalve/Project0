@@ -1,0 +1,20 @@
+body{
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+h1{
+    font-size: 80px;
+}
+h2{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#box {
+
+    background: #FCDE9C;
+  
+  }
+
+#img{
+    width: 500px;
+    height: 500px;
+}

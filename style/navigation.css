@@ -1,0 +1,10 @@
+nav{
+    background-color:#ffbf5b;
+  }
+  
+  nav > a{
+    margin-top: 10px;
+    margin-left: 10px;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+  }

@@ -1,0 +1,24 @@
+
+.container{
+  position: absolute;
+  z-index: 1;
+}
+
+#header{
+  position: absolute;
+  z-index: 11;
+  background-color:#ffbf5b ;
+}
+
+@media (min-width: 500px){
+  #image{
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 499px) {
+  #image{
+    width: 100px;
+    height: 100px;
+}
