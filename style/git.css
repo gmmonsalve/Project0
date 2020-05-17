@@ -1,18 +1,29 @@
 body{
     font-family: 'Pathway Gothic One', sans-serif;
+    background-color: #FCDE9C;
 }
 
 h1{
     font-size: 80px;
 }
-h2{
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-#box {
 
-    background: #FCDE9C;
-  
-  }
+h2{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row{
+    width: 100vw;
+    height: 100vh;
+}
+#text{
+   
+    background-color: white;
+}
+
 
 #img{
     width: 500px;

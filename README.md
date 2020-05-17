@@ -3,7 +3,7 @@
 ## Requirements:
 
 - [x] At least for html pages
-- [ ] At least one list
+- [x] At least one list
 - [x] At least one stylesheet file
 - [x] at least five different CSS properties (#id, .class)
 - [ ] At least five different types of CSS selectors.
