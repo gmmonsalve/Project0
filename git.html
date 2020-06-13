@@ -6,44 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style/navigation.css">
-  <link rel="stylesheet" href="./style/git.css">
+  <link rel="stylesheet" href="./css/navigation.css">
+  <link rel="stylesheet" href="./css/git.css">
   <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <title>Document</title>
+  <link rel="stylesheet" href="/css/circle.css">
+  <title>CS50-Git</title>
 </head>
 
 <body>
   <nav class="nav pt-1 pb-2">
     <a class="nav-link active ml-auto" href="index.html">Home</a>
-    <a class="nav-link border-0 rounded-pill" href="" style="background-color: #F19C7B;">Git</a>
+    <a class="nav-link border-0 rounded-pill text-light" href="" style="background-color: #F19C7B;">Git</a>
     <a class="nav-link" href="htm.html">HTML</a>
     <a class="nav-link mr-auto" href="css.html">CSS</a>
   </nav>
 
- 
-    <div class="row">
-      <div id="text" class="col-sm pr-5 pl-5 pt-4 mr-5">
-        <h1 class="text-center">Git</h1>
-        <h2>Git can keep track of changes made to code,
-          synchronize code between different people,
-          test changes to code without losing the original,
-          and revert back to old versions of code.</h2>
-        <h2>Git commands:</h2>
-        <ul>
-          <li>git clone: take a repository stored on a server (like GitHub) and downloads it</li>
-          <li>git add [filename(s)] : add files to the staging area to be included in the next commit</li>
-          <li>git commit -m "message" : take a snapshot of the repository and save it with a message about the changes
-          </li>
-          <li>git status : print what is currently going on with the repository</li>
-          <li>git push : push any local changes (commits) to a remote server</li>
-          <li>git push : push any local changes (commits) to a remote server</li>
-        </ul>
-      </div>
-      <div id="box" class="col-sm">
-       <img src="img/git.png" class="img-fluid">
-      </div>
+  <div id="colu" class="d-flex flex-row justify-content-between">
+    <div id="txt" class="ml-5">
+      <h1 class="text-center">Git</h1>
+      <h2>Git can keep track of changes made to code,
+        synchronize code between different people,
+        test changes to code without losing the original,
+        and revert back to old versions of code.</h2>
+      <h2>Git commands:</h2>
+      <ul>
+        <li>git clone: take a repository stored on a server (like GitHub) and downloads it</li>
+        <li>git add [filename(s)] : add files to the staging area to be included in the next commit</li>
+        <li>git commit -m "message" : take a snapshot of the repository and save it with a message about the changes
+        </li>
+        <li>git status : print what is currently going on with the repository</li>
+        <li>git push : push any local changes (commits) to a remote server</li>
+        <li>git push : push any local changes (commits) to a remote server</li>
+      </ul>
     </div>
+    
+    <div id="cont" class="lft text-center">
+        <img src="img/git.png" class="mt-5 ml-5 left img-fluid">
+    </div>
+    
+  </div>
   
 </body>
 

@@ -1,0 +1,20 @@
+.lft {
+  border-bottom-left-radius: 400px;
+  border-top-left-radius: 400px; }
+
+.rght {
+  border-bottom-right-radius: 400px;
+  border-top-right-radius: 400px; }
+
+#cont {
+  background: #f1a081;
+  display: inline-block;
+  width: 40%;
+  height: 100%; }
+
+#colu {
+  margin-top: -10vh;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1; }
