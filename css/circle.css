@@ -6,15 +6,40 @@
   border-bottom-right-radius: 400px;
   border-top-right-radius: 400px; }
 
+.top {
+  border-top-left-radius: 400px;
+  border-top-right-radius: 400px; }
+
 #cont {
   background: #f1a081;
-  display: inline-block;
   width: 40%;
   height: 100%; }
 
 #colu {
   margin-top: -10vh;
   position: absolute;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   z-index: -1; }
+
+#txt {
+  width: 50%;
+  margin-top: 10vh; }
+
+body {
+  font-family: 'Pathway Gothic One', sans-serif; }
+
+h1 {
+  font-size: 80px; }
+
+h2 {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif; }
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px; }
+
+img {
+  width: 80%;
+  height: 70%; }

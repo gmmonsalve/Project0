@@ -11,4 +11,6 @@
 - [x] At least one Bootstrap component
 - [ ] At least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
 - [x] SCSS
+- [ ] SCSS nesting
+- [ ] SCSS inheritance
 - [x] Readme info
