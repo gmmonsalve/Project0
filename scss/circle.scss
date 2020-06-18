@@ -12,7 +12,6 @@ $size: 200px;
     border-top-right-radius: $size * 2;
   }
   #cont {
-    background: #f1a081;
     width: 40%;
     height: 100%;
   }
@@ -27,17 +26,16 @@ $size: 200px;
     width: 50%;
     margin-top: 10vh;
 }
-body{
-  font-family: 'Pathway Gothic One', sans-serif;
-}
 
 h1{
   font-size: 80px;
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 
 h2{
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
+  text-align: justify;
 }
 
 li{
