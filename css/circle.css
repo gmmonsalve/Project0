@@ -6,13 +6,13 @@
   border-bottom-right-radius: 400px;
   border-top-right-radius: 400px; }
 
-.top {
-  border-top-left-radius: 400px;
-  border-top-right-radius: 400px; }
-
 #cont {
   width: 40%;
   height: 100%; }
+
+img {
+  width: 80%;
+  height: 70%; }
 
 #colu {
   margin-top: -10vh;
@@ -20,10 +20,9 @@
   height: 100%;
   width: 100%;
   z-index: -1; }
-
-#txt {
-  width: 50%;
-  margin-top: 10vh; }
+  #colu #txt {
+    width: 50%;
+    margin-top: 10vh; }
 
 h1 {
   font-size: 80px;
@@ -34,10 +33,6 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   text-align: justify; }
 
-li {
+ul li {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 10px; }
-
-img {
-  width: 80%;
-  height: 70%; }
