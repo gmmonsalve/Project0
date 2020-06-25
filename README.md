@@ -11,8 +11,8 @@
 - [x] At least five different types of CSS selectors (#id, .class).
 - [x] At least one mobile-responsive @media query
 - [x] At least one Bootstrap component
-- [ ] At least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
+- [x] At least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
 - [x] SCSS
 - [x] SCSS nesting
-- [ ] SCSS inheritance
+- [x] SCSS inheritance
 - [x] Readme info
