@@ -18,6 +18,9 @@
 .row {
   max-width: 100%; }
 
+#txt {
+  margin-top: -5vh; }
+
 img {
   max-width: 80%;
   max-height: 80%; }
